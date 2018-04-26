@@ -46,7 +46,6 @@ def make_setlist(infile):
         'select * from songs where X in ({})'.format(', '.join(setlist.index)), conn)
     conn.close()
     return setdata
-    
 
 if __name__ == '__main__':
     import argparse

@@ -27,7 +27,7 @@ can then be converted to a pandas DataFrame object for ease of
 manipulation.
 
 
-### setfromweb.py
+### `setfromweb.py`
 
 This was written specifically for taking the setlist posted to
 http://sessionsgrenoble.free.fr each week and generating a practice
@@ -37,3 +37,9 @@ text. (Specifically, the count of each letter is cast as a vector, and
 compared against the count for all the titles in the database). This
 isn't perfect, but for the number of songs in a typical set it works
 well enough.
+
+
+### `demo.sh`
+
+This will download the master setlist and generate a session setlist
+and postscript. Call with `$bash demo.sh`.
